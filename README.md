@@ -4,30 +4,29 @@ This project compares the performance of 5 different machine learning models on 
 
 ### The sampling techniques used in this project are:
 
-- Random Over-Sampling
+- ADASYN
 - Random Under-Sampling
 - SMOTE
-- Stratified Sampling
-- Systematic Sampling
+- Borderline SMOTE
+- Cluster Centroids
 
 ### The machine learning models used in this project are:
 
 - Logistic Regression
 - Random Forest
-- Support Vector Machine
-- K-Nearest Neighbors
-- XGBoost
+- AdaBoost Classifier
+- Support Vector Classifier
+- Bagging Classifier
 
 ### The project is implemented in Python using the following libraries:
 - numpy
 - pandas
 - scikit-learn
 - imbalanced-learn
-- xgboost
-
 
 ### Comparision Table
 
-<img width="662" alt="Screenshot 2023-02-20 at 1 11 42 AM" src="https://user-images.githubusercontent.com/72341235/219971437-3799692c-6062-4f87-974e-6a06508e3601.png">
+
+<img width="666" alt="Screenshot 2023-02-20 at 1 18 23 AM" src="https://user-images.githubusercontent.com/72341235/219971567-4dc4c2dd-7738-4651-985b-0ab5953b8a0b.png">
 
 

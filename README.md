@@ -1,33 +1,31 @@
-# Sampling 
+# ML Sampling Techniques Comparison
 
-This program is designed to download a credit card fraud detection dataset and apply various sampling techniques to create a balanced dataset. The balanced dataset is then used to create five samples and apply five different sampling techniques to five machine learning models.
+This project compares the performance of 5 different machine learning models on 5 different sampling techniques for imbalanced datasets. 
 
-## Data Source:
-The credit card fraud detection dataset is available at the following link:
-https://github.com/Agamjot12/Sampling/blob/main/Creditcard_data.csv
+### The sampling techniques used in this project are:
 
-## Requirements:
-To run this program, the following packages need to be installed:  
-•pandas  
-•imblearn  
-•scikit-learn  
+- Random Over-Sampling
+- Random Under-Sampling
+- SMOTE
+- Stratified Sampling
+- Systematic Sampling
 
-The sampling techniques used in this program are:  
-•Random Oversampling  
-•Random Undersampling  
-•SMOTE (Synthetic Minority Oversampling Technique)  
-•ADASYN (Adaptive Synthetic)  
-•Easy Ensemble Classifier  
+### The machine learning models used in this project are:
 
-The five machine learning models used in this program are:  
-•ExtraTrees  
-•AdaBoost  
-•Random Forest  
-•Gradient Boosting  
-•XGBoost  
+- Logistic Regression
+- Random Forest
+- Support Vector Machine
+- K-Nearest Neighbors
+- XGBoost
 
-For each sampling technique, the program creates five different samples of the balanced dataset and applies each machine learning model to each sample. The program then generates the classification report of each model and presents the results in a table.
-Also AUC (Area Under the ROC Curve) is also calculated.
+### The project is implemented in Python using the following libraries:
+- numpy
+- pandas
+- scikit-learn
+- imbalanced-learn
+- xgboost
 
-## Contributors:
-Agamjot Singh
+
+### Comparision Table
+
+<img width="836" alt="Screenshot 2023-02-19 at 6 34 11 PM" src="https://user-images.githubusercontent.com/72341235/219949841-0acc8451-f559-4a01-af4f-4d2c8a5f7529.png">

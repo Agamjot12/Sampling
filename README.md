@@ -28,4 +28,5 @@ This project compares the performance of 5 different machine learning models on 
 
 ### Comparision Table
 
-<img width="836" alt="Screenshot 2023-02-19 at 6 34 11 PM" src="https://user-images.githubusercontent.com/72341235/219949841-0acc8451-f559-4a01-af4f-4d2c8a5f7529.png">
+
+
